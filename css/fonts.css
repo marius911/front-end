@@ -1,0 +1,10 @@
+@import url(ink href=('https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet');
+.rokkit {
+    font-family: Rokkitt, serif;
+    font-size: 4.5rem;
+}
+
+@font-face {
+    font-family: "Myriad Pro";
+    src: url(/fonts/MyriadPro-Bold.otf);
+}

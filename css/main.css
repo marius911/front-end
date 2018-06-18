@@ -5,15 +5,21 @@ html {
 
 .hero {
     background-image: url(../img/img1.png);
+    background-color: hsla(89, 43%, 51%, 0.3);
     /* Set a specific height */
-    height: 50%;
+    max-width: 100%;
+    height: 80%;
     padding: 0%;
     margin: 0%;
     /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position: background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.hero-transparent {
+    background-color: rgba(217, 191, 189, 0.5);
+    ;
 }
 
 .hero-text {
@@ -32,25 +38,50 @@ html {
     transform: translate(-50%, -50%);
 }
 
-ul {
+nav {
+    padding-top: 5%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
     list-style-type: none;
+    margin: 0px;
+    padding-right: 10%;
 }
 
-li {
-    float: right;
+nav ul li {
+    margin: 10px;
+    padding: 2px;
+    height: 1.25%;
 }
 
-a {
-    display: block;
-    padding: 8px;
+nav ul li a {
+    padding-right: 1.25%;
+    padding-left: 1.25%;
     color: white;
+    height: 1.25%;
+    width: 2.5%;
+    text-decoration: none;
+    line-height: 0;
 }
 
+
+}
 .sect2 {
     text-align: center;
     padding: 10%;
 }
-
+hr {
+    display: block;
+    height: 5px;
+    width: 116%;
+    border: 0;
+    border-top: 2.5px solid white;
+    margin: 1em 0;
+    padding: 0;
+    transform: translateX(-8%);
+}
 .footer_s {
     left: 0;
     bottom: 0;
@@ -60,19 +91,20 @@ a {
     color: white;
     text-align: center;
 }
-
 .column {
     float: left;
     width: 33.33%;
 }
-
 .logo_f {
     transform: translate(-50%, -50%);
     top: 0%;
     border: 10px;
     border-color: blue;
 }
-
 .centerh {
     text-align: center;
+}
+.myriadpro {
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
 }
